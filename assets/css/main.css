@@ -155,7 +155,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 900;
+		font-weight: 510;
 	}
 
 	em, i {
@@ -2437,6 +2437,13 @@ input, select, textarea {
   #map_and_personas span img{
     width:500px;
   }
+
+
+  #how_might_we span img{
+    width: 500px;
+  }
+
+
 
 
   #smaller {
