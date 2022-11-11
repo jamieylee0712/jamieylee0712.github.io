@@ -2355,11 +2355,45 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 60%;
+			width: 70%;
 		}
 
 			.image.main img {
-				width: 100%;
+				max-width: 80%;
+				height: auto;
+			}
+			
+			.image.main_2 {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 80%;
+		}
+
+			.image.main_2 img {
+				max-width: 100%;
+				height: auto;
+			}
+			
+			.image.graph {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 70%;
+		}
+
+			.image.graph img {
+				max-width: 85%;
+				height: auto;
+			}
+			
+			.image.main_project2 {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 90%;
+		}
+
+			.image.main_project2 img {
+			  max-width: 100%;
+				height: auto;
 			}
 			
 			#storyboard-container {
@@ -2425,7 +2459,7 @@ input, select, textarea {
 
 
   #blueprint_and_participants span img{
-      width:500px;
+    width:500px;
   }
 
 
@@ -2435,40 +2469,30 @@ input, select, textarea {
 
 
   #map_and_personas span img{
-    width:500px;
+    width:600px;
   }
 
 
   #how_might_we span img{
-    width: 500px;
+    width:60%;
+    min-width:500px;
   }
 
 
+  #qualtrics span img{
+    width:70%;
+    max-width:500px;
+  }
+ 
+  #matrix span img{
+    width:70%;
+    max-width:700px;
+  }
 
-
-  #smaller {
-    display: block;
-			margin: 0 0 3em 0;
-			width: 55%;
+  #gif span img{
+   width:400px;
   }
   
-  #evensmaller{
-    display: block;
-			margin: 0 0 3em 0;
-			width: 30%;
-  }
-  
-  #betweensmaller{
-    display: block;
-			margin: 0 0 3em 0;
-			width: 45%;
-  }
-  
-   #small{
-    display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-  }
 
 			@media screen and (max-width: 736px) {
 

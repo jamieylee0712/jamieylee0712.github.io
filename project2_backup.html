@@ -46,10 +46,10 @@
 					<div id="main">
 						<div class="inner">
 							<h1>CASE x Lyft: University Group Matching</h1>
-							<span class="image main_project2"><img src="images/Lyft_cover.png" alt="" /></span>
+							<span class="image main"><img src="images/Lyft_cover.png" alt="" /></span>
 							<h2>Summary</h2>
 							<p>
-							 Our client was Lyft, a national rideshare company. Lyft's payment team came to CASE (an undergraduate consulting club at NU) with the question of <b>how we might improve the ride payment experience to increase brand loyalty amongst college students.</b> Our team of 10 (composed of Design and Marketing subgroups) collaborated over 10 weeks in Spring 2021 to address this question through 1) research, 2) analysis, and 3) product development.<br>
+							 Our client was the payment team at Lyft, a national rideshare company, who came to CASE (an undergraduate consulting club at NU) with the question of <b>how we might improve the ride payment experience to increase brand loyalty amongst college students.</b> Our team of 10 (composed of Design and Marketing subgroups) collaborated over 10 weeks in Spring 2021 to address this question through 1) research, 2) analysis, and 3) product development.<br>
 							 We sought to understand the college student demographic, their ridesharing behaviors, and the pain points they experience during the Lyft ride process, specifically regarding payment. My role involved collaborating with my team to conduct interviews as well as develop journey maps, user personas, and product ideas.<br><br>
 							 <b>Research Questions:</b>
 							<ul>
@@ -68,26 +68,35 @@
 						  <li>Mass survey</li>
 						  <li>Design interview</li>
 						  <li>Consumer psychology interview</li>
-						  <li>Follow-up target audience (low-income students) interview</li>
+						  <li>Follow-up target audience (low-income-students) interview</li>
 						  </ul>
-						  
-						  
+						  <b>Analysis</b>
+						  <ul>
+						  <li>Key Data Points</li>
+						  <li>Personas</li>
+						  <li>User Journey</li>
+						  <li>Defined Pain Points</li>
+						  </ul>
+						  <b>Recommendations</b>
+						  <ul>
+						  <li>Actionable Insights</li>
+						  <li>Potential Solutions</li>
+						  <li>New User Journey</li>
+						  </ul>
 						  Our final deliverables included a slide deck, a User Experience Research (UXR) document, and a Product Requirement Document (PRD) of the University Group Matching feature we created.
 							</p>
 							<h2>process</h2>
 							<p>
-							  After aligning expectations with our client, we started with research. We decided against focus groups despite their convenience, as we felt they tend to lead towards biased results. We brainstormed questions, as shown below, categorizing them into 6 sections:<br><br>
-	            <span class="image main_project2">
+							  After aligning expectations with our client, we started with research. We decided against focus groups despite their convenience, as we felt they tend to sway bias easily. We brainstormed questions as shown below, categorizing them into 6 sections:<br>
+	            <span class="image main">
 										<img src="images/mural.png" alt="" />
 							</p>
 							<p>
 							  After receiving client feedback, we sent out the <b>30-question survey</b> that focused on payment methods and transportation options. It was completed by 675 students across 100+ different colleges in the U.S.
-							  <div id="qualtrics">
-							<span>
+							<span class="image main">
 										<img src="images/qualtrics.png" alt="" /> 
-							<span>
+							<span class="image">
 										<img src="images/qualtrics2.png" alt="" />
-								</div>
 							</p>
 						  <p>
 						   Our team then conducted 30 1:1 in-depth interviews. We ensured a mix of gender, socioeconomic status, frequency of rideshare use, and attendance at an in-state vs. out-of-state school.
@@ -103,7 +112,13 @@
 						    <li>b) brand perception among college students</li>
 						    </ul>
 						   </ul>
-
+						   
+						   Interviews revealed that riders were primarily driven by:
+						   <ul>
+						     <li>a) Affordability of ride (is it worth the price?)</li>
+						     <li>b) Destination requirements (do I feel the need to rideshare to my destination?)</li>
+						     <li>c) Group activity (am I going out with friends?)</li>
+						   </ul>
 						  </p>
 						<h2>Analysis</h2>
 							<p>
@@ -117,10 +132,10 @@
 								  <li>Out-of-state students use rideshare for airport travel <b>6x more than in-state students (6.10%)</b></li>
 								  <li>Within out-of-state, <b>30% of students with income <$150k</b> use rideshare for airport travel, compared to <b>48% of students with income >$150k</b></li>
 								</ul>
-								<span class="image main">
+								<span id = "smaller" class="image main">
 										<img src="images/pie1.png" alt="" />
 									</span>
-								<span class="image main">
+								<span id="smaller" class="image main">
 										<img src="images/bar1.png" alt="" />
 									</span>
 								<b>2. Night Rides are the 2nd Most Common Use Case</b>
@@ -128,18 +143,24 @@
 								  <li>Overall, <b>19.68% of students</b> use rideshare for night rides</li>
 								  <li>When broken down by income, we saw that <b>16.39% of students in the <$50k bracket</b> use rideshare for night rides, compared to <b>22.43% of students in the >$150k bracket</b></li>
 								</ul>
-								<span class="image main">
+								<span id="smaller" class="image main">
 										<img src="images/pie2.png" alt="" />
 									</span>
 								<b>3. Out-of-State Students Take More Rides than In-State Students</b>
 								<ul>
 								  <li>In-state students take an average of 3.72 rides a month, compared to 4.34 rides a month for out-of-state students</li>
-								  <li>This could be because out-of-state students tend to be wealthier, or because they have less access to personal transportation.</li>
+								  <li>This could be because out-of-state students tend to be wealthier, or because they have less access to personal transportation:</li>
 								</ul>
+                <span id="betweensmaller" class="image main">
+										<img src="images/pie3.png" alt="" />
+									</span>
+								<span id="betweensmaller" class="image main">
+										<img src="images/pie4.png" alt="" />
+									</span>
 								From the survey and interviews, we gained a better understanding of our target demographic, and we were able to develop pain points, journey maps, and user personas.
 							</p>
 							<p>
-							  We observed <b>3 common pain points:</b>
+							  We observed 3 common pain points:
 							  <ul>
 							    <li>
 							      Pain Point 1: It’s difficult to find students to carpool with to shared destinations
@@ -150,7 +171,11 @@
 							            <li><b>90% of out-of-state</b> interviewees mentioned <b>being out late at night</b> as one of their main rideshare use cases </li>
 							          </ul>
 							        </li>
-							       
+							        <li>Quotes
+							          <ul>
+							            <li>“I plan my flight date and time around my friend’s flights in order to be able to split the cost of the ride.”</li>
+							          </ul>
+							        </li>
 							        </ul>
 							      </li>
 							    <li>Pain Point 2: Students desire to split ride fares more easily
@@ -160,7 +185,12 @@
 							            <li><b>Everyone</b> we interviewed said they used Venmo to split payments</li>
 							            <li><b>64%</b> of our interviewees said improving the split feature would be helpful</li>
 							          </ul>
-							        
+							        <li>
+							          Quotes:
+							          <ul>
+							            <li>“I wish the app had an easy way to split payments because I always have to be Venmo requesting people to pay me, and sometimes they do not pay me back.”</li>
+							          </ul>
+							        </li>
 							        </li>
 							      </ul>
 							    </li>
@@ -173,29 +203,35 @@
 							            <li><i>(Lyft states that 100% of tips go to drivers, but many respondents were unaware of this)</i></li>
 							          </ul>
 							        </li>
-							        
+							        <li>Quotes:
+							          <ul>
+							            <li>“Will be charged after 5 minutes from confirmation. Cancellation fee happens after 5 min? I’m not really sure..”</li>
+							          </ul>
 							        </li>
 							      </ul>
 							  </ul>
 							</p>
 							<p>
-							  Using our research, I and the rest of the Design team got to brainstorming product solutions. Our insights led us to 3 different ideas: Out of the 3, we recommended our University Group Matching Feature.<br>
-								 <span id="matrix">
+							  Using our research, I and the rest of the Design team got to brainstorming product solutions. Our insights led us to 3 different ideas:<br>
+							  <span class="image main">
+										<img src="images/insight_chart.png" alt="" />
+									</span>
+								Out of the 3, we recommended our University Group Matching Feature.
+								 <span id="smaller" class="image main">
 										<img src="images/ranking_matrix.png" alt="" />
-									</span><br>
-									
+									</span>
 								University Group Matching would help students <b>reach common destinations,</b> given that many students rideshare 1) going to and from the airport / campus, and 2) returning home late at night. The current <b>user obstacle</b> is a lack of streamlined process of coordinating rides with others who are heading towards the same destination. Our <b>design argument</b> is that this feature would connect you with other university students traveling from the same location.<br><br>
-								<span id="gif">
+								<span id="smaller" class="image">
 										<img src="images/image14.gif" alt="" />
-									</span><br>
+									</span>
 								University Group Matching would verify that users are indeed college students by requiring input of a <b>university affiliation.</b> Riders would click the “University” tab at the top of the sidebar menu, and input their name, student email, and years of study before hitting “Verify.”<br>
 								I was inspired by Spotify’s Student Premium Package - Spotify requires similar information for students to use Premium at a discounted rate. Knowing that such a system existed made it easier for us to recommend it as part of our solution!<br>
 								 After verification, riders could click the “Edit” button to update their university should they need to (e.g. transferring to another school.)<br>
-								 <span>
+								 <span id="small" class="image main">
 										<img src="images/many_screens.png" alt="" />
 									</span>
 								Our team was conflicted between whether to connect riders to other students randomly or to allow them to choose.<br><br>
-								<span class="image main">
+								<span id="smaller" class="image main">
 										<img src="images/pros_cons.png" alt="" />
 									</span>
 								As seen above, we decided to connect students at random because we (and our client) were concerned about issues regarding the logistics of privacy and college affiliation verification, as well as the possibility that riders may discriminate when they make their decision.
@@ -209,11 +245,18 @@
 								<span class="image main">
 										<img src="images/persona_2.png" alt="" />
 									</span>
-								Below are our final user journeys:
-								<span class="image main_project2">
+                Below are rough drafts of the user journey map both with and without our University Matching feature, respectively.<br><br>
+                <span class="image main">
+										<img src="images/rough_journey_1.png" alt="" />
+									</span>
+									<span class="image main">
+										<img src="images/rough_journey_2.png" alt="" />
+									</span>
+								Below are our final user journeys. We revised our drafts be more organized and concise again to demonstrate the before and after of implementing our University Matching feature:
+								<span class="image main">
 										<img src="images/new_journey_1.png" alt="" />
 									</span>
-								<span class="image main_project2">
+								<span class="image main">
 										<img src="images/new_journey_2.png" alt="" />
 									</span>
 							</p>
